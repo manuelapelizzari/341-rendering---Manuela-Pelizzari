@@ -52,9 +52,8 @@ main{
     -webkit-text-stroke: 1px white;
     color: black;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 32%;
 }
 /*logos del header*/
 .logo{
