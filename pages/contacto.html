@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css"/>
+    <link
+      rel="shortcut icon"
+      href="../assets/logo341.png"
+      type="image/x-icon"
+    />
+    <title>ESTUDIO 341 -Contacto- </title>
+  </head>
+  <body class="contacto__grid">
+    <header class="header">
+      <!--primera parte del header: logo-->
+      <a href="../index.html"><img class="logo" src="../assets/logo341.png" alt="logo pagina"></a>
+      <!--segunda parte apps-->
+      <div class="header__logos">
+      <a href="https://www.facebook.com/341.rendering">
+      <img class="logoapp" src="../assets/icons8-facebook.svg" alt="ir a facebook"></a>
+      <a href="https://www.instagram.com/341rendering/"><img class="logoapp" src="../assets/icons8-instagram.svg" alt="ir a instagram"></a>
+      <a href="mailto:341rendering@gmail.com">
+      <img class="logoapp" src="../assets/icons8-gmail.svg" alt="ir a gmail"></a>
+      </div>
+    </header>
+    <section class="section texto">
+      <form action="servidor.php" method="post">
+      <!--nombre de form-->
+      <h2 class="section__titulo">Formulario de contacto</h2>
+      <h3 class="section__titulo">Completá los datos para que podamos comunicarnos contigo</h3>
+      <div class="section__items">
+      <label for="nombre">Nombre</label>
+      <input 
+        class="bordesredamarillos"
+        type="text"
+        name="nombre"
+        placeholder="escribe tu nombre*"
+        required>
+      <!--apellido de form-->
+      <label for="apellido">Apellido</label>
+      <input 
+        class="bordesredamarillos"
+        type="text"
+        name="apellido"
+        placeholder="escribe tu apellido*"
+        required>
+      <!--mail-->
+      <label for="mail">E-mail</label>
+      <input
+        class="bordesredamarillos"
+        type="text"
+        name="E-mail"
+        placeholder="escribe tu mail*"
+        required>
+      <!--telefono-->
+      <label for="telefono" ">Telefono</label>
+      <input
+        class="bordesredamarillos"
+        type="tel"
+        name="telefono"
+        placeholder="número de teléfono"
+        required
+        >
+      <!--consulta NO requerida-->
+      <h4>Consulta</h4>
+      <textarea class="bordesredamarillos" name="consulta" id="Consulta" cols="30" rows="10">
+Escribe tu consulta*</textarea></div>
+      <!--boton-->
+      <div class="section__botones">
+        <input type="submit" value="Enviar Formulario" class="bordesredamarillos"/>
+        <input type="reset" value="Borrar Formulario" class="bordesredamarillos"/></div>
+      <h2 class="section__titulo">Te responderemos a la brevedad. ¡Gracias!</h2>
+      </form></section>
+      <div class="mapa__padre">
+      <div class="mapa">
+        <h2 class="mapa__titulo">Nos encontras en:</h2>
+        <iframe class="section__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8101.285287904907!2d-58.034525235918814!3d-31.38185149600225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8093e560701%3A0x5d1d34b223a6f091!2sConcordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1638153192851!5m2!1ses-419!2sar";" allowfullscreen="" loading="lazy"></iframe>
+      </div></div>
+    
+    <footer class="footer1">
+      <nav class="nav">
+        <ul class="nav__menu">
+          <li class="nav__links"><a href="../index.html">Inicio</li></a>
+          <li class="nav__links"><a href="./nosotros.html">Nosotros</li></a>
+          <li class="nav__links"><a href="./proyectos.html">Proyectos</li></a>
+          <li class="nav__links"><a href="./recursos.html">Recursos</li></a>
+          <li class="nav__links"><a href="./servicios.html">Servicios</li></a>
+        </ul>
+      </nav>
+    </footer>    
+  </body>
+</html>
